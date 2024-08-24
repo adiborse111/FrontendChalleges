@@ -11,6 +11,7 @@ const Home = () => {
             <Link to={'https://recipe-page-main-smoky.vercel.app/'}>Recipe Page</Link>
             <Link to='/ProductCard'>Product Preview Card</Link>
             <Link to='/FourCard'>Four Card Feature</Link>
+            <Link to='/Testimonials'>Testimonials Grid Section</Link>
         </div>
     </div>
   )
