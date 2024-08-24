@@ -12,6 +12,7 @@ const Home = () => {
             <Link to='/ProductCard'>Product Preview Card</Link>
             <Link to='/FourCard'>Four Card Feature</Link>
             <Link to='/Testimonials'>Testimonials Grid Section</Link>
+            <Link to='/SignupFrom'>Signup Form</Link>
         </div>
     </div>
   )
