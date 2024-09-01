@@ -4,6 +4,14 @@ import FourCard from "./four-card-feature-section-master/FourCard";
 import Testimonials from "./testimonials-grid-section-main/Testimonials";
 import SignupForm from "./intro-component-with-signup-form-master/SignupForm";
 import ResultSummary from "./results-summary-component-main/ResultSummary";
+import MortageRepayment from "./mortgage-repayment-calculator-main/MortageRepayment";
 
-
-export { ProductCard, Home, FourCard, Testimonials, SignupForm, ResultSummary };
+export {
+  ProductCard,
+  Home,
+  FourCard,
+  Testimonials,
+  SignupForm,
+  ResultSummary,
+  MortageRepayment,
+};

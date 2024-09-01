@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { FourCard, Home, ProductCard, ResultSummary, SignupForm, Testimonials } from "./assets"
+import { FourCard, Home, ProductCard, ResultSummary, SignupForm, Testimonials, MortageRepayment } from "./assets"
 
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
       <Route path="/Testimonials" element={<Testimonials />} />
       <Route path="/SignupFrom" element={<SignupForm />} />
       <Route path="/ResultSummary" element={<ResultSummary />} />
+      <Route path="/MortageRepayment" element={<MortageRepayment />} />
     </Routes>
   )
 }

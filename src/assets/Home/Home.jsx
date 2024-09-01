@@ -14,6 +14,7 @@ const Home = () => {
             <Link to='/Testimonials'>Testimonials Grid Section</Link>
             <Link to='/SignupFrom'>Signup Form</Link>
             <Link to='/ResultSummary'>Result Summary</Link>
+            <Link to='/MortageRepayment'>Mortgage Repayment</Link>
         </div>
     </div>
   )
