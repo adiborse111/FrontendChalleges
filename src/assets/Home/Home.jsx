@@ -16,6 +16,7 @@ const Home = () => {
             <Link to='/ResultSummary'>Result Summary</Link>
             <Link to='/MortageRepayment'>Mortgage Repayment</Link>
             <Link to='/NFTcard'>NFT Preview Card</Link>
+            <Link to='TipCalculator'>Tip Calculator</Link>
         </div>
     </div>
   )

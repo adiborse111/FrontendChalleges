@@ -6,6 +6,7 @@ import SignupForm from "./intro-component-with-signup-form-master/SignupForm";
 import ResultSummary from "./results-summary-component-main/ResultSummary";
 import MortageRepayment from "./mortgage-repayment-calculator-main/MortageRepayment";
 import NFTcard from "./nft-preview-card-component-main/NFTcard";
+import TipCalculator from "./tip-calculator-app-main/TipCalculator";
 
 export {
   ProductCard,
@@ -15,5 +16,6 @@ export {
   SignupForm,
   ResultSummary,
   MortageRepayment,
-  NFTcard
+  NFTcard,
+  TipCalculator,
 };
