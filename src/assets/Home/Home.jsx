@@ -15,6 +15,7 @@ const Home = () => {
             <Link to='/SignupFrom'>Signup Form</Link>
             <Link to='/ResultSummary'>Result Summary</Link>
             <Link to='/MortageRepayment'>Mortgage Repayment</Link>
+            <Link to='/NFTcard'>NFT Preview Card</Link>
         </div>
     </div>
   )
