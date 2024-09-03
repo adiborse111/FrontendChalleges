@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 const BoxModel = ({ href, image, title }) => {
   return (
     <Tilt>
-      <div className="object-contain rounded-xl bg-gray-700 w-80">
+      <div className="object-contain rounded-xl bg-gray-700 w-80 shadow-2xl">
         <a href={href}>
           <img src={image} alt="img" className="rounded-t-xl h-52 w-80" />
         </a>

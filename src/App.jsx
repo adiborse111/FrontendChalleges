@@ -19,7 +19,7 @@ export default function App() {
       <Route path="/ProductCard" element={<ProductCard />} />
       <Route path="/FourCard" element={<FourCard />} />
       <Route path="/Testimonials" element={<Testimonials />} />
-      <Route path="/SignupFrom" element={<SignupForm />} />
+      <Route path="/SignupForm" element={<SignupForm />} />
       <Route path="/ResultSummary" element={<ResultSummary />} />
       <Route path="/MortageRepayment" element={<MortageRepayment />} />
       <Route path="/NFTcard" element={<NFTcard />} />

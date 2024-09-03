@@ -4,7 +4,7 @@ import { projects } from "..";
 
 const ProjectList = () => {
   return (
-    <div className="py-10 ml-10 grid grid-cols-3 gap-y-10">
+    <div className="py-10 lg:px-20 ml-10 grid lg:grid-cols-3 gap-y-10 justify-center">
       {projects.map((projects) => (
         <BoxModel 
           href={projects.href}
