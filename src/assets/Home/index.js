@@ -8,6 +8,7 @@ import blog from "./images/BlogPreview.jpg"
 import recipe from "./images/RecipePage.jpg"
 import mortgagecal from "./images/MortgageCalculator.jpg"
 import nft from "./images/NftCard.jpg"
+import tip from "./images/TipCalculator.jpg"
 
 export const projects = [
   {
@@ -59,5 +60,10 @@ export const projects = [
     href: "/NFTCard",
     image: nft,
     title: "NFT Preview Card",
+  },
+  {
+    href: "/TipCalculator",
+    image: tip,
+    title: "Tip Calculator App",
   },
 ];
