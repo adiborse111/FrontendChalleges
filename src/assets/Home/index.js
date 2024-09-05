@@ -10,6 +10,7 @@ import mortgagecal from "./images/MortgageCalculator.jpg"
 import nft from "./images/NftCard.jpg"
 import tip from "./images/TipCalculator.jpg"
 import advice from "../advice-generator-app-main/design/desktop-design.jpg"
+import introdrop from "../intro-section-with-dropdown-navigation-main/design/desktop-design.jpg"
 
 export const projects = [
   {
@@ -71,5 +72,10 @@ export const projects = [
     href: "/AdviceGenerator",
     image: advice,
     title: "Advice Generator App",
+  },
+  {
+    href: "/IntroSectionDropdown",
+    image: introdrop,
+    title: "Intro Section Dropdown",
   },
 ];

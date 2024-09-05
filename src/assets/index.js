@@ -8,6 +8,7 @@ import MortageRepayment from "./mortgage-repayment-calculator-main/MortageRepaym
 import NFTcard from "./nft-preview-card-component-main/NFTcard";
 import TipCalculator from "./tip-calculator-app-main/TipCalculator";
 import Advice from "./advice-generator-app-main/Advice";
+import IntroDropdown from "./intro-section-with-dropdown-navigation-main/IntroDropdown";
 
 export {
   ProductCard,
@@ -20,4 +21,5 @@ export {
   NFTcard,
   TipCalculator,
   Advice,
+  IntroDropdown,
 };
