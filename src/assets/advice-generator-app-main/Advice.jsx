@@ -3,8 +3,8 @@ import dice from "./images/icon-dice.svg";
 import { useState } from "react";
 
 const Advice = () => {
-  const [advice, setAdvice] = useState("");
-  const [id, setId] = useState("")
+  const [advice, setAdvice] = useState("Walking is a perfectly valid solution to traffic congestion problems.");
+  const [id, setId] = useState("50")
 
   async function fetchAdvise() {
     const url = "https://api.adviceslip.com/advice";
