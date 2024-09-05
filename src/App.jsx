@@ -8,7 +8,9 @@ import {
   Testimonials,
   MortageRepayment,
   NFTcard,
-  TipCalculator
+  TipCalculator,
+  Advice
+
 } from "./assets";
 import Home2 from "./assets/Home/Home2";
 
@@ -24,6 +26,7 @@ export default function App() {
       <Route path="/MortageRepayment" element={<MortageRepayment />} />
       <Route path="/NFTcard" element={<NFTcard />} />
       <Route path="/TipCalculator" element={<TipCalculator />} />
+      <Route path="/AdviceGenerator" element={<Advice />} />
     </Routes>
   );
 }
