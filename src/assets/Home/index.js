@@ -11,6 +11,7 @@ import nft from "./images/NftCard.jpg"
 import tip from "./images/TipCalculator.jpg"
 import advice from "../advice-generator-app-main/design/desktop-design.jpg"
 import introdrop from "../intro-section-with-dropdown-navigation-main/design/desktop-design.jpg"
+import productcart from "../product-list-with-cart-main/design/desktop-design-empty.jpg"
 
 export const projects = [
   {
@@ -77,5 +78,10 @@ export const projects = [
     href: "/IntroSectionDropdown",
     image: introdrop,
     title: "Intro Section Dropdown",
+  },
+  {
+    href: "/ProductListCart",
+    image: productcart,
+    title: "Product List Cart",
   },
 ];
