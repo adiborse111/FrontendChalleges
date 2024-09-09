@@ -10,6 +10,7 @@ import TipCalculator from "./tip-calculator-app-main/TipCalculator";
 import Advice from "./advice-generator-app-main/Advice";
 import IntroDropdown from "./intro-section-with-dropdown-navigation-main/IntroDropdown";
 import ProductListCart from "./product-list-with-cart-main/ProductListCart";
+import SunnysideLanding from "./sunnyside-agency-landing-page-main/SunnysideLanding";
 
 export {
   ProductCard,
@@ -24,4 +25,5 @@ export {
   Advice,
   IntroDropdown,
   ProductListCart,
+  SunnysideLanding,
 };

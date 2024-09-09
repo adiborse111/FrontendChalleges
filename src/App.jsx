@@ -11,7 +11,8 @@ import {
   TipCalculator,
   Advice,
   IntroDropdown,
-  ProductListCart
+  ProductListCart,
+  SunnysideLanding,
 } from "./assets";
 import Home2 from "./assets/Home/Home2";
 
@@ -30,6 +31,7 @@ export default function App() {
       <Route path="/AdviceGenerator" element={<Advice />} />
       <Route path="/IntroSectionDropdown" element={<IntroDropdown />} />
       <Route path="/ProductListCart" element={<ProductListCart />} />
+      <Route path="/SunnysideLanding" element={<SunnysideLanding />} />
     </Routes>
   );
 }

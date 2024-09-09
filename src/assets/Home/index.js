@@ -12,6 +12,7 @@ import tip from "./images/TipCalculator.jpg"
 import advice from "../advice-generator-app-main/design/desktop-design.jpg"
 import introdrop from "../intro-section-with-dropdown-navigation-main/design/desktop-design.jpg"
 import productcart from "../product-list-with-cart-main/design/desktop-design-empty.jpg"
+import sunnylanding from "../sunnyside-agency-landing-page-main/design/desktop-preview.jpg"
 
 export const projects = [
   {
@@ -83,5 +84,10 @@ export const projects = [
     href: "/ProductListCart",
     image: productcart,
     title: "Product List Cart",
+  },
+  {
+    href: "/SunnysideLanding",
+    image: sunnylanding,
+    title: "Sunnyside Landing Page",
   },
 ];
