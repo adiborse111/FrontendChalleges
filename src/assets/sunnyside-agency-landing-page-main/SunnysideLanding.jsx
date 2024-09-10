@@ -1,8 +1,14 @@
-import React from 'react'
+import Hero from './components/Hero'
+import Second from './components/Second'
+import Testimonials from './components/Testimonials'
 
 const SunnysideLanding = () => {
   return (
-    <div>SunnysideLanding</div>
+    <>
+      <Hero />
+      <Second />
+      <Testimonials />
+    </>
   )
 }
 
