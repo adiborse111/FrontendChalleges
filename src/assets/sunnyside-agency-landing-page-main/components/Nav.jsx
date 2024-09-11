@@ -10,7 +10,7 @@ const Nav = () => {
           <button>About</button>
           <button>Services</button>
           <button>Projects</button>
-          <button className="text-black bg-white p-3 rounded-full font-bold text-sm px-6">CONTACT</button>
+          <button className="text-black bg-white p-3 rounded-full font-bold text-sm px-6 hover:bg-blue-400 hover:text-white">CONTACT</button>
         </div>
         <div className="p-2 lg:hidden">
           <Dropdown backdrop="blur">
